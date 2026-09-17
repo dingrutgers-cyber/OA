@@ -1,17 +1,17 @@
-# ICU Demand Forecasting Learning Lab
+# ICU Demand Forecasting Lab
 
-A client-side teaching lab with Learn, Practice, and Challenge modes. Student answers remain in the browser and are not stored or transmitted.
+Student-facing interactive forecasting lab using the supplied 28-day ICU admissions dataset.
 
-## Publish with GitHub Pages
-1. Create a GitHub repository.
-2. Upload `index.html`, `README.md`, and `LICENSE`.
-3. Open repository **Settings > Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main` and `/ (root)`, then save.
-6. GitHub will display the public Pages URL after deployment.
+## Learning sequence
+1. Inspect the actual data table and time-series plot.
+2. Predict which forecasting methods should fit best.
+3. Calculate rolling one-step-ahead forecasts and errors for non-regression methods.
+4. Compare ME, MAE, MSE, RMSE, and MAPE.
+5. Interpret simple and weekday-dummy regression output.
+6. Plot the regression relationship and forecast Days 29-38.
 
-## Teaching note
-The supplied ICU case is illustrative. The Challenge tab creates synthetic data for practice and labels it as synthetic. This site is formative, not a secure grade submission system.
+## GitHub Pages
+Upload `index.html`, `README.md`, and `LICENSE` to a repository. In Settings > Pages choose Deploy from a branch, main, root.
 
 ## Privacy
-No student response is transmitted by this version. Do not add secrets, tokens, student records, or protected data to a public Pages repository.
+All computations run in the browser. No student work is transmitted or stored.
